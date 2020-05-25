@@ -1,0 +1,8 @@
+<h1><%= @artist.name %></h1>
+<hr />
+<br />
+<%= link_to 'Songs', artist_songs_path(@artist), class: "ui primary button inverted" %>
+<br />
+<br />
+<br />
+<%= link_to "Delete Artist", @artist, method: :delete, class: "ui red button inverted" %>
